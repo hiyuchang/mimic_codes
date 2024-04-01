@@ -46,9 +46,9 @@ We simulate the following setups for the
 
 | Parameter                      | Description                                 |
 | ----------------------------- | ---------------------------------------- |
-| `model` | The model architecture. Options: `simple-cnn`, `vgg`, `resnet`, `mlp`. Default = `mlp`. |
-| `dataset`      | Dataset to use. Options: `mnist`, `cifar10`, `fmnist`, `svhn`, `generated`, `femnist`, `a9a`, `rcv1`, `covtype`. Default = `mnist`. |
-| `alg` | The training algorithm. Options: `fedavg`, `mifa`, `mimic`. Default = `fedavg`. |
+| `model` | The model architecture. Options: `cnn`, `vgg11`. Default = `cnn`. |
+| `dataset`      | Dataset to use. Options: `fmnist`, `cifar10`. Default = `fmnist`. |
+| `alg` | The training algorithm. Options: `fedavg`, `mifa`, `mimic`. Default = `mimic`. |
 | `epochs` | Number of local training epochs, default = `5`. |
 | `n_clients` | Number of clients, default = `30`. |
 | `comm_iter`    | Number of communication rounds to use, default = `300`. |
