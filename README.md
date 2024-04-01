@@ -15,6 +15,8 @@ This repo contains the codes for our paper **MimiC** published in *Transactions 
 
 - Login in your wandb account (for visualization). Or just comment all codes related to wandb.
 
+- Download data to `./data`.
+
 ### Run!
 
 Here is one example to run this code:
@@ -23,8 +25,8 @@ python experiments.py \
 	--model=cnn \
 	--dataset=fmnist \
 	--alg=mimic \
-    --lr=0.01 \
-    --lr_decay=0.95 \
+    	--lr=0.01 \
+    	--lr_decay=0.95 \
 	--n_clients=30 \
 	--comm_iter=300 \
 	--partition='noniid-#label2' \
