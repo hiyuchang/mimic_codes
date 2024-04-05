@@ -31,7 +31,6 @@ def get_args():
     parser.add_argument('--alg', type=str, default='fedavg', choices=['fedavg', 'mifa', 'mimic'])
     parser.add_argument('--comm_iter', type=int, default=50, help='number of maximum communication roun')
     parser.add_argument('--init_seed', type=int, default=0, help="Random seed")
-    parser.add_argument('--dropout_p', type=float, required=False, default=0.0, help="Dropout probability. Default=0.0")
     parser.add_argument('--datadir', type=str, required=False, default="./data/", help="Data directory")
     parser.add_argument('--logdir', type=str, required=False, default="./logs/", help='Log directory path')
     parser.add_argument('--modeldir', type=str, required=False, default="./models/", help='Model directory path')
